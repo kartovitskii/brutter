@@ -1,0 +1,112 @@
+<div id = "mobile-menu"
+     class = "modal m-mob-menu" >
+    <div class = "modal-dialog" >
+        <div class = "modal-content" >
+            <div class = "modal-header" >
+                <div class = "row align-items-center" >
+                    <div class = "col-2 text-left" >
+                        <button type = "button"
+                                class = "close"
+                                data-dismiss = "modal" >
+                        </button >
+                    </div >
+                    <div class = "col-8" >
+                        <a href = "/"
+                           class = "logo" >
+                            <svg class = "logo__i" >
+                                <use xlink:href = "/assets/img/sprite.svg#logo-i" ></use >
+                            </svg >
+                            <svg class = "logo__t" >
+                                <use xlink:href = "/assets/img/sprite.svg#logo-t" ></use >
+                            </svg >
+                        </a >
+                    </div >
+                    <div class = "col-2" >
+                        <button type = "button"
+                                class = "i-search btn"
+                                data-toggle = "modal"
+                                data-target = "#search" >
+                            <svg >
+                                <use xlink:href = "/assets/img/sprite.svg#search" ></use >
+                            </svg >
+                        </button >
+                    </div >
+                </div >
+            </div >
+            <div class = "modal-body" >
+                <ul class = "submenu mb-1" >
+                    <li class = "submenu-item" >
+                        <a href = "javascript: void(0)" class = "btn btn-blue" >
+                            Ледовая арена
+                        </a >
+                    </li >
+                    <li class = "submenu-item" >
+                        <a href = "javascript: void(0)" class = "btn btn-purple" >
+                            Магазины
+                        </a >
+                    </li >
+                    <li class = "submenu-item" >
+                        <a href = "javascript: void(0)" class = "btn btn-green" >
+                            Еда
+                        </a >
+                    </li >
+                    <li class = "submenu-item" >
+                        <a href = "javascript: void(0)" class = "btn btn-orange" >
+                            Детям
+                        </a >
+                    </li >
+                    <li class = "submenu-item" >
+                        <a href = "javascript: void(0)" class = "btn btn-yellow" >
+                            Развлечения
+                        </a >
+                    </li >
+                    <li class = "submenu-item" >
+                        <a href = "javascript: void(0)" class = "btn btn-cyan" >
+                            Сервис
+                        </a >
+                    </li >
+                </ul >
+                <nav class = "nav mb-3" >
+                    <div class = "nav-item" >
+                        <a href = "javascript: void(0)"
+                           class = "nav-link" >
+                            О нас
+                        </a >
+                    </div >
+                    <div class = "nav-item" >
+                        <a href = "javascript: void(0)"
+                           class = "nav-link" >
+                            События
+                        </a >
+                    </div >
+                    <div class = "nav-item" >
+                        <a href = "javascript: void(0)"
+                           class = "nav-link" >
+                            Арендаторам
+                        </a >
+                    </div >
+                    <div class = "nav-item" >
+                        <a href = "javascript: void(0)"
+                           class = "nav-link" >
+                            Карта центра
+                        </a >
+                    </div >
+                    <div class = "nav-item" >
+                        <a href = "javascript: void(0)"
+                           class = "nav-link" >
+                            Контакты
+                        </a >
+                    </div >
+                </nav >
+                <div class = "row" >
+                    <div class = "col-12 mb-3 col-sm-auto mb-sm-0" >
+                        {% include "../h-info.twig" %}
+                    </div >
+                    <div class = "col-12 col-sm-auto" >
+                        {% include "../social.twig" %}
+                    </div >
+                </div >
+            </div >
+        </div >
+    </div >
+</div >

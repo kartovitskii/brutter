@@ -1,0 +1,55 @@
+<div class = "b-debug-menu" >
+    <a href = "/" >Homepage</a >
+    <hr >
+    <a href = "/test.html" data-cute = "" >Тест</a >
+</div >
+<style >
+    .b-debug-menu {
+        position: fixed;
+        bottom: 25%;
+        left: -130px;
+
+        display: flex;
+        flex-direction: column;
+        width: 140px;
+        padding: 5px 10px;
+
+        background: rgba(255, 255, 255, .9);
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 0 4px 4px 0;
+        z-index: 11;
+        transition: .15s ease-out;
+
+        font-size: 12px;
+        line-height: 1.2;
+        }
+
+    .b-debug-menu:hover {
+        left: -2px;
+        }
+
+    .b-debug-menu a {
+        margin: 2px 0;
+        color: #e74b19;
+        transition: .25s;
+        }
+
+    .b-debug-menu a[data-cute] {
+        color: #ff00b8;
+        font-weight: bold;
+        }
+
+    .b-debug-menu a:hover {
+        opacity: .75;
+        }
+
+    .b-debug-menu hr {
+        border: .5px solid rgba(0, 0, 0, .15);
+        }
+
+    @media (max-width: 1199px) {
+        .b-debug-menu {
+            display: none;
+            }
+        }
+</style >
