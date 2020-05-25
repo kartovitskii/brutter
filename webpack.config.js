@@ -83,7 +83,7 @@ module.exports = {
     extractSass,
     new HtmlWebpackPlugin({
       filename: "index.html",
-      template: 'src/views/index.pug',
+      template: 'src/views/main.pug',
 
     }),
     new HtmlWebpackPugPlugin()
